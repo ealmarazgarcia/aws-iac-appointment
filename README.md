@@ -11,7 +11,7 @@ Este proyecto implementa una infraestructura básica en AWS utilizando Terraform
   - `sqs/`: Colas SQS y suscripciones filtradas por país.
 
 ## Descripción de los Módulos
-s
+
 ### DynamoDB
 - Crea una tabla llamada `Appointments` con claves `insuredId` (hash) y `scheduleId` (range).
 - Incluye un índice global secundario sobre `countryISO`.
